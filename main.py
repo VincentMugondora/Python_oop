@@ -17,3 +17,14 @@ print(car2.color, "\n", car2.year,"\n", car2.model,"\n", car2.for_sale)
 print(car3.color, "\n", car3.year,"\n", car3.model,"\n", car3.for_sale)
 
 # Methods => are actions tht our objects can perfom
+car1.drive()
+car2.drive()
+car3.drive()
+
+car1.stop()
+car2.stop()
+car3.stop()
+
+car1.describe()
+car2.describe()
+car3.describe()
