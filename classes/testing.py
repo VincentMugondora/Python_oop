@@ -115,3 +115,7 @@ def sign(num):
         print(0)
 # Check your answer
 sign(5)
+
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
+for planet in planets:
+    print(planet, end=' ')
