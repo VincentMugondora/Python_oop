@@ -132,3 +132,15 @@ msg = ''
 for char in s:
     if char.isupper():
         print(char, end='')
+
+
+letters = "Vincent Mugondora"
+
+for char in letters:
+        print(char)
+
+
+short_planets = [planet for planet in planets if len(planet) < 6]
+print(short_planets)
+
+print([1, 2, 3, 4] > 2)
