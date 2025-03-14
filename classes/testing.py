@@ -144,3 +144,13 @@ short_planets = [planet for planet in planets if len(planet) < 6]
 print(short_planets)
 
 print([1, 2, 3, 4] > 2)
+
+def estimate_average_slot_payout(n_runs):
+    """Run the slot machine n_runs times and return the average net profit per run.
+    Example calls (note that return value is nondeterministic!):
+    >>> estimate_average_slot_payout(1)
+    -1
+    >>> estimate_average_slot_payout(1)
+    0.5
+    """
+    pass
